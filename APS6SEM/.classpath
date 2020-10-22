@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javacv"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaCV"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/bridj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-android-arm.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-android-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-android-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-android-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-ios-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-ios-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-linux-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-linux-armhf.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-linux-ppc64le.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-linux-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-platform.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-windows-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacpp-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacv.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/javacv-platform.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-android-arm.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-android-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-android-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-android-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-ios-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-ios-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-linux-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-linux-armhf.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-linux-ppc64le.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-linux-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-platform.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-windows-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/openblas-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-android-arm.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-android-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-android-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-android-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-ios-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-ios-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-linux-arm64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-linux-armhf.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-linux-ppc64le.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-linux-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-platform.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-windows-x86.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/opencv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Área de Trabalho/Bigs/Projetos Eclipse/APS6sem/jars/webcam-capture-0.3.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
