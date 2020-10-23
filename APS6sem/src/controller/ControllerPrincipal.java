@@ -24,7 +24,6 @@ public class ControllerPrincipal {
 		reconhecimentoFacial = rFacial;
 		
 		telaLogin.addEntrarListener(new Entrar());
-		telaWebcam.addVoltarListener(new Voltar());
 		telaInicio.addSairListener(new Sair());
 	}
 	
@@ -35,7 +34,7 @@ public class ControllerPrincipal {
 			try {
 				usuario_valido = reconhecimentoFacial.reconhecer();
 			} catch (Exception e1) {
-				
+				System.out.println("Erro");
 			}
 			if(usuario_valido) {
 				switch(info.getUsuario()){
@@ -60,7 +59,6 @@ public class ControllerPrincipal {
 						info.setCargo("Ministro do Meio Ambiente");
 						break;
 				}
-				telaWebcam.dispose();
 				telaInicio.lblUsuarioLogado.setText(Integer.toString(info.getUsuario()));
 				telaInicio.lblNome.setText(info.getNome());
 				telaInicio.lblUsuarioNvlAcesso.setText(Integer.toString(info.getNvl_acesso()));
@@ -70,17 +68,12 @@ public class ControllerPrincipal {
 		}
 	}
 	
-	class Voltar implements ActionListener {
-		public void actionPerformed(ActionEvent e) {
-			telaWebcam.dispose();
-			telaLogin.setVisible(true);
-		}
-	}
-	
 	class Sair implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			telaInicio.dispose();
             System.exit(0);
 		}
 	}
+	
+	
 }

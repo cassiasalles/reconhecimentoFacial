@@ -13,7 +13,7 @@ public class Principal {
 		TelaLogin telaLogin = new TelaLogin();
 		TelaWebcam telaWebcam = new TelaWebcam();
 		TelaInicio telaInicio = new TelaInicio();
-		ReconhecimentoFacial reconhecimentoFacial = new ReconhecimentoFacial(telaWebcam, info);
+		ReconhecimentoFacial reconhecimentoFacial = new ReconhecimentoFacial(telaWebcam, info, telaLogin);
 		ControllerPrincipal controllerPrincipal = new ControllerPrincipal(info, telaLogin, telaInicio, telaWebcam, reconhecimentoFacial);
 		treinamento.treino();
 		telaLogin.setVisible(true);
